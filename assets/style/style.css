@@ -123,6 +123,7 @@ section {
 
 .grey-btn {
   color: #969292;
+  font-family: 'Ossem-Rounded', sans-serif;
 }
 
 .grey-btn:hover {
@@ -305,6 +306,36 @@ section {
 /* Превью карточек психологов */
 .psy-card {
   background: url(/assets/img/bg-spir.svg);
+  position: relative;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  border-radius: 100%;
+  border: 1px solid #F7D0C6;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  background: #F7D0C6;
+}
+
+.carousel-control-prev {
+  top: -50px;
+  right: 100px;
+  left: auto;
+}
+
+.carousel-control-next {
+  top: -50px;
+  right: 50px;
+  left: auto;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 15px;
+  height: 15px;
 }
 
 .card {
