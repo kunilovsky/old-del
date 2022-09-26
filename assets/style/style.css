@@ -5,4 +5,63 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Ossem-Rounded', sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Main Colors */
+header {
+  font-family: 'Ossem-Rounded', sans-serif;
+  max-height: 70px;
+  background: #fff;
+}
+
+.navbar-brand img {
+  max-width: 130px;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000 !important;
+}
+
+.active {
+  color: #B66357 !important;
+  text-decoration: underline;
+}
+
+.nav-link:hover {
+  color: #B66357 !important;
+}
+
+/* Navbar BTN */
+.nav-link-btn_1, .nav-link-btn_2 {
+  text-decoration: none;
+  color: #B66357;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nav-link-btn_1 {
+  padding: 13px 30px;
+  border: 1px solid #B66357;
+  border-radius: 1000px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.nav-link-btn_1:hover {
+  color: #fff;
+  background: #B66357;
+}
+
+.nav-link-btn_2:hover {
+  color: #B66357;
+}
 /*# sourceMappingURL=style.css.map */
