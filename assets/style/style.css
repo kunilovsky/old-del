@@ -6,6 +6,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Ossem-Rounded', sans-serif;
 }
 
+h2 {
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 120%;
+}
+
+p {
+  font-size: 16px;
+  line-height: 160%;
+}
+
 a {
   text-decoration: none;
 }
@@ -63,5 +74,37 @@ header {
 
 .nav-link-btn_2:hover {
   color: #B66357;
+}
+
+/* Start section Site */
+.start {
+  height: calc( 100vh - 70px);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.start__description {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.start__btn {
+  padding: 13px 30px;
+  border: 1px solid #B66357;
+  border-radius: 1000px;
+  background: #B66357;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #fff;
+}
+
+.start__btn:hover {
+  background: #fff;
+  color: #B66357;
+}
+
+.start__img {
+  max-width: 600px;
 }
 /*# sourceMappingURL=style.css.map */
