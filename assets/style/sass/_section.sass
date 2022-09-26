@@ -6,19 +6,25 @@ section
     font-family: 'Ossem-Rounded', sans-serif
     color: $white
     background: $red
-    padding: 12px 24px
+    padding: 10px 25px
     border: 1px solid $red
     border-radius: 100px
     transition: .3s
     font-size: 16px
+    line-height: 100%
     &:hover
         background: $white
+        color: $red
+.grey-btn
+    color: $grey
+    &:hover
         color: $red
 
 /* Стортовая секция (без авторизации) */
 .start
     height: calc( 100vh - 70px )
     align-items: center
+    margin-top: 0
     &__description
         margin-top: 20px
         margin-bottom: 30px
@@ -120,11 +126,34 @@ section
     &__element-end
         background: url(/assets/img/bg-card.png)
         background-size: cover
-
-
 .description
     font-size: 18px
 .col-cust-3
     width: 45%
 .col-cust-4
     width: 55%
+/* Превью карточек психологов */
+.psy-card
+    background: url(/assets/img/bg-spir.svg)
+.card
+    border-radius: 20px
+    border: none
+    background: rgba(255, 255, 255, 0.2)
+    box-shadow: 2px 4px 20px rgba(148, 92, 52, 0.2)
+.card-body
+    &__meta span
+        background: radial-gradient(117.23% 267.04% at 6.61% 9.89%, rgba(255, 190, 181, 0.2) 0%, rgba(232, 217, 202, 0.2) 100%)
+        border-radius: 4px
+        padding: 15px 10px
+        font-size: 8px
+        max-width: 100px
+        margin-right: 10px
+    &__category span
+        padding: 5px 10px
+        border-radius: 100px
+        border: 1px solid $lihgtred
+        font-size: 10px
+        margin-right: 10px
+        margin-bottom: 10px
+    &__footer
+        font-size: 16px
