@@ -26,6 +26,12 @@ a:hover {
   text-decoration: none;
 }
 
+.form-control {
+  border-radius: 100px;
+  border: none;
+  padding: 14px 20px;
+}
+
 /* Main Colors */
 header {
   font-family: 'Ossem-Rounded', sans-serif;
@@ -78,6 +84,10 @@ header {
 }
 
 /* Стортовая секция (без авторизации) */
+section {
+  margin-bottom: 40px;
+}
+
 .start {
   height: calc( 100vh - 70px);
   -webkit-box-align: center;
@@ -167,6 +177,26 @@ header {
 .active-tab {
   background: #B66357;
   border: 1px solid #B66357;
+  color: #fff;
+}
+
+/* Поиск категории */
+.search {
+  background: url(/assets/img/bg-seacr-section.png);
+  border-radius: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.btn-search {
+  font-size: 16px;
+  color: #fff;
+  background: #B66357;
+  border-radius: 100px;
+  margin-left: 20px;
+}
+
+.btn-search:hover {
   color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
