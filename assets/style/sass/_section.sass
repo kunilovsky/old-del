@@ -1,4 +1,4 @@
-/* Start section Site */
+/* Стортовая секция (без авторизации) */
 .start
     height: calc( 100vh - 70px )
     align-items: center
@@ -6,6 +6,8 @@
         margin-top: 20px
         margin-bottom: 30px
     &__btn
+        font-family: 'Ossem-Rounded', sans-serif
+        font-size: 16px
         padding: 13px 30px
         border: 1px solid $red
         border-radius: 1000px
@@ -17,3 +19,46 @@
         color: $red
     &__img
         max-width: 600px
+/* Секция "Чем помогут наши психологи" */
+.about
+    background: radial-gradient(117.23% 267.04% at 6.61% 9.89%, rgba(255, 190, 181, 0.2) 0%, rgba(232, 217, 202, 0.2) 100%)
+    backdrop-filter: blur(65px)
+    border-radius: 20px
+    padding: 100px 0
+    &__link
+        font-family: 'Ossem-Rounded', sans-serif
+        font-size: 12px
+        line-height: 150%
+        border: 1px solid $black
+        border-radius: 1000px
+        transition: .3s
+        background: none
+        padding: 11px 20px
+        margin-right: 20px
+        &:hover
+            background: $red
+            border: 1px solid $red
+            color: $white
+    &__link-item
+        font-size: 14px
+        padding: 10px 20px
+        border-radius: 1000px
+        border: 1px solid $lihgtred
+        color: $black
+        text-decoration: none !important
+        margin-right: 20px
+        margin-top: 20px
+        &:hover
+            background: $lihgtred
+            text-decoration: none !important
+            color: $black
+.tab-content>.active
+    display: flex
+    flex-wrap: wrap
+.active-tab
+    background: $red
+    border: 1px solid $red
+    color: $white
+
+            
+    

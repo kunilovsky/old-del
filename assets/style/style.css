@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -39,10 +40,10 @@ header {
 .nav-link {
   font-size: 16px;
   font-weight: 400;
-  color: #000 !important;
+  color: #040202 !important;
 }
 
-.active {
+.active-nav {
   color: #B66357 !important;
   text-decoration: underline;
 }
@@ -76,7 +77,7 @@ header {
   color: #B66357;
 }
 
-/* Start section Site */
+/* Стортовая секция (без авторизации) */
 .start {
   height: calc( 100vh - 70px);
   -webkit-box-align: center;
@@ -90,6 +91,8 @@ header {
 }
 
 .start__btn {
+  font-family: 'Ossem-Rounded', sans-serif;
+  font-size: 16px;
   padding: 13px 30px;
   border: 1px solid #B66357;
   border-radius: 1000px;
@@ -106,5 +109,64 @@ header {
 
 .start__img {
   max-width: 600px;
+}
+
+/* Секция "Чем помогут наши психологи" */
+.about {
+  background: radial-gradient(117.23% 267.04% at 6.61% 9.89%, rgba(255, 190, 181, 0.2) 0%, rgba(232, 217, 202, 0.2) 100%);
+  -webkit-backdrop-filter: blur(65px);
+          backdrop-filter: blur(65px);
+  border-radius: 20px;
+  padding: 100px 0;
+}
+
+.about__link {
+  font-family: 'Ossem-Rounded', sans-serif;
+  font-size: 12px;
+  line-height: 150%;
+  border: 1px solid #040202;
+  border-radius: 1000px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  background: none;
+  padding: 11px 20px;
+  margin-right: 20px;
+}
+
+.about__link:hover {
+  background: #B66357;
+  border: 1px solid #B66357;
+  color: #fff;
+}
+
+.about__link-item {
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 1000px;
+  border: 1px solid #F7D0C6;
+  color: #040202;
+  text-decoration: none !important;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.about__link-item:hover {
+  background: #F7D0C6;
+  text-decoration: none !important;
+  color: #040202;
+}
+
+.tab-content > .active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.active-tab {
+  background: #B66357;
+  border: 1px solid #B66357;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
