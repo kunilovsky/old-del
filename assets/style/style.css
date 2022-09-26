@@ -311,8 +311,23 @@ section {
   border-radius: 20px;
   border: none;
   background: rgba(255, 255, 255, 0.2);
+}
+
+.card-body {
   -webkit-box-shadow: 2px 4px 20px rgba(148, 92, 52, 0.2);
           box-shadow: 2px 4px 20px rgba(148, 92, 52, 0.2);
+  border-radius: 0 0 20px 20px;
+}
+
+.card-body__title a {
+  color: #040202;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.card-body__title a:hover {
+  color: #B66357;
+  text-decoration: underline;
 }
 
 .card-body__meta span {

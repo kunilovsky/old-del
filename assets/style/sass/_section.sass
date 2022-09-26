@@ -139,8 +139,15 @@ section
     border-radius: 20px
     border: none
     background: rgba(255, 255, 255, 0.2)
-    box-shadow: 2px 4px 20px rgba(148, 92, 52, 0.2)
 .card-body
+    box-shadow: 2px 4px 20px rgba(148, 92, 52, 0.2)
+    border-radius: 0 0 20px 20px
+    &__title a
+        color: $black
+        transition: .3s
+        &:hover
+            color: $red
+            text-decoration: underline
     &__meta span
         background: radial-gradient(117.23% 267.04% at 6.61% 9.89%, rgba(255, 190, 181, 0.2) 0%, rgba(232, 217, 202, 0.2) 100%)
         border-radius: 4px
