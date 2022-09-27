@@ -139,6 +139,12 @@ section {
   padding: 100px 30px;
 }
 
+.bg-lightred-item {
+  background: radial-gradient(117.23% 267.04% at 6.61% 9.89%, rgba(255, 190, 181, 0.2) 0%, rgba(232, 217, 202, 0.2) 100%);
+  border-radius: 20px;
+  border: none;
+}
+
 .bg-lightred-img {
   background: url(/assets/img/bg-card.png);
   background-size: cover;
@@ -157,6 +163,14 @@ section {
   border-radius: 20px;
   border: 1px solid #F7D0C6;
   background-color: #fff;
+}
+
+.bg-lightred-img-fluid {
+  background: url(/assets/img/bg-card-fluid.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 15px;
+  border-radius: 20px;
 }
 
 /* Стортовая секция (без авторизации) */
@@ -495,5 +509,23 @@ section {
   padding-top: 15px;
   font-size: 16px;
   padding-right: 20px;
+}
+
+/* Секция частых вопросов */
+.accordion-item {
+  background: radial-gradient(117.23% 267.04% at 6.61% 9.89%, rgba(255, 190, 181, 0.2) 0%, rgba(232, 217, 202, 0.2) 100%) !important;
+  border-radius: 20px !important;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.accordion-button {
+  background: radial-gradient(117.23% 267.04% at 6.61% 9.89%, rgba(255, 190, 181, 0.2) 0%, rgba(232, 217, 202, 0.2) 100%) !important;
+  border-radius: 20px !important;
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #040202;
 }
 /*# sourceMappingURL=style.css.map */
