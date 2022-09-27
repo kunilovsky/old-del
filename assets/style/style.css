@@ -131,6 +131,20 @@ section {
   color: #B66357;
 }
 
+.bg-lightred {
+  background: radial-gradient(117.23% 267.04% at 6.61% 9.89%, rgba(255, 190, 181, 0.2) 0%, rgba(232, 217, 202, 0.2) 100%);
+  -webkit-backdrop-filter: blur(65px);
+          backdrop-filter: blur(65px);
+  border-radius: 20px;
+  padding: 100px 30px;
+}
+
+.bg-white-radius {
+  background: #fff;
+  border-radius: 20px;
+  padding: 15px;
+}
+
 /* Стортовая секция (без авторизации) */
 .start {
   height: calc( 100vh - 70px);
@@ -395,5 +409,21 @@ section {
 .garant__item__img {
   max-width: 40px;
   margin-right: 15px;
+}
+
+/* Секция Как начать терапию */
+.info__element {
+  min-height: 220px;
+}
+
+.info__element__step {
+  position: absolute;
+  top: -15px;
+  right: 25px;
+  left: auto;
+  background: #B66357;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 100px;
 }
 /*# sourceMappingURL=style.css.map */
