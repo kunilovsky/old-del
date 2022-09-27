@@ -17,6 +17,10 @@ h3 {
   font-size: 28px;
 }
 
+h4 {
+  font-size: 24px;
+}
+
 h5 {
   font-size: 22px;
   line-height: 150%;
@@ -526,6 +530,39 @@ section {
 }
 
 .accordion-button:not(.collapsed) {
+  color: #040202;
+}
+
+/* Footer */
+footer {
+  padding-top: 100px;
+}
+
+.contact__icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 1000px;
+  background: #F7D0C6;
+}
+
+.footer-line {
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  border-color: #F7D0C6;
+}
+
+.footer-nav {
+  list-style: none;
+}
+
+.footer-nav__item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-nav__item a {
+  font-family: 'Ossem-Rounded', sans-serif;
+  font-size: 16px;
   color: #040202;
 }
 /*# sourceMappingURL=style.css.map */
