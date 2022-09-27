@@ -139,10 +139,24 @@ section {
   padding: 100px 30px;
 }
 
+.bg-lightred-img {
+  background: url(/assets/img/bg-card.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 15px;
+  border-radius: 20px;
+}
+
 .bg-white-radius {
   background: #fff;
   border-radius: 20px;
   padding: 15px;
+}
+
+.bg-lightred-radius-border {
+  border-radius: 20px;
+  border: 1px solid #F7D0C6;
+  background-color: #fff;
 }
 
 /* Стортовая секция (без авторизации) */
@@ -425,5 +439,61 @@ section {
   color: #fff;
   padding: 3px 10px;
   border-radius: 100px;
+}
+
+/* Секция тарифов */
+.tarif__card {
+  min-height: 270px;
+}
+
+.tarif__price {
+  font-size: 20px;
+  position: absolute;
+  top: -30px;
+  right: -20px;
+  left: auto;
+  background: #fff;
+  border-radius: 1000px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #F7D0C6;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Секция отзывы */
+.rev-card {
+  position: relative;
+}
+
+.rev__img {
+  padding: 0;
+}
+
+.rev__title {
+  padding-top: 40px;
+}
+
+.rev__title h5 {
+  margin: 0;
+}
+
+.rev__title span {
+  font-size: 16px;
+  color: #969292;
+}
+
+.rev__text {
+  padding-top: 15px;
+  font-size: 16px;
+  padding-right: 20px;
 }
 /*# sourceMappingURL=style.css.map */
